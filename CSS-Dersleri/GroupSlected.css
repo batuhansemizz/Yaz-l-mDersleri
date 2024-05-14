@@ -1,0 +1,58 @@
+/*
+
+Grup Seçiciler
+
+(p) --> tüm p etiketleri
+(div p ) --> Div içerisindeki p etiketleri
+(div,p) --> Tüm div ve tüm p etiketleri
+
+(p+div) --> etiketinden sonra gelen div etiketleri
+
+*/
+
+
+.example .paragraf{
+    color:aqua
+}
+
+h4[title="baslik"]{  /* bu sadece p etiketine title yazdığımızda geçerli olur */
+    color: brown;
+}
+
+a[target="_blank"]{ /* input'ta da bunu yaparken type'ın a göre yapıyoruz*/
+color: bisque;
+}
+
+/* Pseudo Element */
+
+p::first-line{  /* paragrafın ilk satırlarını kalın yazdık */
+    font-weight: bold;
+    color: darkcyan;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+p::first-letter{
+
+font-size: large;
+
+}
+
+/* Pseudo Class */
+
+ul li{
+    padding: 5px;
+    margin-bottom: 6px;
+}
+
+ul li:first-child{  /* ilk elemanın rengi */
+    background-color: burlywood;
+}
+
+a:visited{  /* eğer link ziyaret edilirse link in rengi değişir */
+    color: chocolate;
+}
+
+a:hover{ /* üzerine gelince değişir */
+    background-color: blueviolet;
+}
