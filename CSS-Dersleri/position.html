@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .kutu {
+        width: 150px;
+        height: 150px;
+      }
+
+      #kutu1 {
+        background: lightpink;
+      }
+      #kutu2 {
+        background-color: chocolate;
+        position: absolute; /* relative olunca kutunun nedi sınırından itibaren bpşluk bırakım abs olunca sayfanın konumundan boşluk bırakur */
+        top: 50px;
+        left: 50px;
+      }
+      #kutu3 {
+        background-color: aquamarine;
+        position: fixed; /* pozizsyonu korur */
+        bottom: 0;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+      voluptatum, quis incidunt ullam tempore veniam placeat eveniet impedit
+      possimus dolores. Ducimus harum perferendis id possimus laboriosam
+      incidunt omnis blanditiis ipsum aliquam sed quos vel quia fugiat fuga
+      ratione nostrum eveniet, voluptatum saepe. Aliquid perspiciatis placeat
+      maxime quibusdam error! Accusamus, cum!
+    </p>
+
+    <div class="kutu" id="kutu1">kutu bir</div>
+    <div class="kutu" id="kutu2">kutu iki</div>
+    <div class="kutu" id="kutu3">kutu üç</div>
+  </body>
+</html>
