@@ -32,6 +32,34 @@ a{
 ul{
     list-style-type:none ;
 }
+
+section{
+    padding-top:100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding: 2.2rem 1.6rem;
+    font-weight:200 ;
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    border: solid 1px #fff;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+
+
+.btn:hover{
+    color: #212529;
+    background-color: #fff;
+}
+
 .img-fliud{
     max-width: 260px;
     height: auto;
@@ -165,7 +193,7 @@ header h2{
 
 
 #portfolio{
-   height: 1000px;
+   
    padding-top:100px;
    padding-bottom: 100px;
    text-align: center;
@@ -181,11 +209,12 @@ header h2{
     float: left;
     width: 33.33%;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .portfolio-item{
     position: relative;
-    
+   
 }
 
 .img-overlay{
@@ -209,15 +238,53 @@ header h2{
 .portfolio-item:hover .img-overlay{
     opacity: .8;
     transition: all .5s;
-    
+    border-radius: 10px;
 }
 
 
 .portfolio-item .img{
     display: block;
+   
 }
 
 .img-fliud-p{
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
+
+#about{
+    background-color: #1abc9b;
+    color: #fff;
+
+}
+
+
+#about h2{
+    font-size: 4.8rem;
+}
+
+#about-text{
+  text-align: left;
+}
+
+#about-text .left{
+    float: left;
+    width: 50%;
+    padding-right:2rem;
+    padding-left: 23rem;
+}
+
+#about-text .right{
+    float: left;
+    width: 50%;
+    padding-right:23rem;
+    padding-left: 2rem;
+}
+
+#about-text .text{
+    font-size: 2rem;
+    line-height: 20px;
+    
+}
+
