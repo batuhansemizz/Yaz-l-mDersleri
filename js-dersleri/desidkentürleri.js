@@ -1,51 +1,48 @@
-// değiken türleri
-
-// Primitive trülrler
-
-
-
 // String
 
-let FirstName = "Semiz"
-console.log(typeof FirstName)
+let FirstName = "Semiz"; // Bir metin değeri olan bir değişken tanımlıyoruz.
+console.log(typeof FirstName); // Değişkenin türünü konsola yazdırıyoruz.
+// Çıktı: string
 
-// number
+// Number
 
-let age = 23;
+let age = 23; // Bir sayısal değer olan bir değişken tanımlıyoruz.
+console.log(typeof age); // Değişkenin türünü konsola yazdırıyoruz.
+// Çıktı: number
 
-console.log(typeof age) // değişken türünü sorgulamak için kullanılır
+// Boolean
 
-// boolen
+let kredi_kulllanımı = false; // Bir mantıksal değer olan bir değişken tanımlıyoruz.
+console.log(typeof kredi_kulllanımı); // Değişkenin türünü konsola yazdırıyoruz.
+// Çıktı: boolean
 
-let kredi_kulllanımı = false
-console.log(typeof kredi_kulllanımı)
+// Undefined
 
-// undefined
+let phone; // Değeri atanmamış bir değişken tanımlıyoruz.
+console.log(typeof phone); // Değişkenin türünü konsola yazdırıyoruz.
+// Çıktı: undefined
 
-let phone;
+// Reference Types: Objects
 
-console.log(typeof phone)
+// Array
 
+let liste = ["ali", "batu", "begüm"]; // Bir dizi (array) tanımlıyoruz.
+console.log(liste); // Diziyi konsola yazdırıyoruz.
+// Çıktı: ["ali", "batu", "begüm"]
 
-//Reference Types: objects
-
-// Arry
-
-let liste = ["ali","batu","begüm"]
-console.log(liste)
-
-
-// objects Literals
+// Object Literals
 
 let address = {
     city: "istanbul",
-    countr:"Turkey",
-}
+    country: "Turkey",
+}; // Bir nesne (object) tanımlıyoruz.
+console.log(typeof address); // Değişkenin türünü konsola yazdırıyoruz.
+// Çıktı: object
 
-console.log(typeof address)
+// Function
 
-var hesapla = function(){
+var hesapla = function(){ // Bir fonksiyon tanımlıyoruz.
     return 0;
-}
-
-console.log(typeof hesapla)
+};
+console.log(typeof hesapla); // Değişkenin türünü konsola yazdırıyoruz.
+// Çıktı: function
