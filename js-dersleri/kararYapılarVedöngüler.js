@@ -23,11 +23,11 @@ if (age === 23) {
 }
 
 
-if (isStudent == true) { // if(isStudent) farklı bir kullanım 
-    console.log("siz öğrecisiniz")
-} else (
-    console.log("siz öğrenci değilsiniz")
-)
+if (isStudent === true) {
+    console.log("siz öğrencisiniz");
+} else {
+    console.log("siz öğrenci değilsiniz");
+}
 
 if (age => 18) {
     console.log("ehliyet alabilir siniz")
@@ -85,3 +85,23 @@ switch (new Date().getDay()) {
         break;
 }
 console.log(day);
+
+
+let hour = 16
+
+switch (true) {
+    case (hour >= 6 && hour <= 12):
+        console.log("günaydın")
+        break;
+    case (hour >= 13 && hour <= 18):
+        console.log("iyi günler")
+        break;
+    case (hour >= 19 && hour <= 24):
+        console.log("iyi akşamlar")
+        break;
+
+    default:
+        console.log("lütfen geçerli bir saat girin")
+        break;
+}
+
