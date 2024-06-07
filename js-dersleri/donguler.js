@@ -1,8 +1,23 @@
 // Döngüler 
 
 //  While
-// koşul doğru olduğu sürece çalışır
+// JavaScript'te while döngüsü, belirli bir koşul doğru olduğu sürece bir bloğu tekrar tekrar çalıştırır.
 
+let _x = 0;
+
+while (x < 10) {
+    console.log("Sayacın değeri: " + sayac);
+    x++;
+}
+
+// bu yapıyı adım adım açıklayalım:
+
+// Koşul: Döngünün her döneminde kontrol edilen bir ifadedir. Bu ifade, doğru (true) ya da yanlış (false) sonuç verebilen herhangi bir mantıksal ifade olabilir.
+// Örneğin, x < 10 gibi bir ifade, x 10'dan küçük olduğu sürece döngünün devam etmesini sağlar.
+// Döngü Bloğu: Koşul doğru olduğu sürece çalıştırılan bir bloktur. Bu blok içinde istediğimiz işlemleri gerçekleştirebiliriz. 
+// Bu işlemler bir ya da daha fazla olabilir.
+// Döngü Çıkışı: Döngü bloğu içinde bir noktada koşulun yanlış dönmesini sağlayacak bir değişiklik yapılmazsa, döngü sonsuz bir döngü haline gelebilir.
+// Bu nedenle, döngünün bir noktada sona ermesini sağlayacak koşulun doğru bir şekilde belirlenmesi önemlidir. Aksi takdirde, program çalışmayı durdurmak zorunda kalabilir (donar).
 let i = 0;
 
 while (i < 10) {
@@ -60,6 +75,7 @@ for (let ı = 0; ı < 10; ı++) {
     console.log(ı)
 
 }
+
 
 for (let t = 0; t < 10; t++) {
     if (t == 5) {
