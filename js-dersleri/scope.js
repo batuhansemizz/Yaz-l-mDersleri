@@ -1,6 +1,6 @@
 // SCOPE KAVRAMI    
 
-// GLOBAL SCOPE , FUNCTİON SCOPE İ BLOCK SCOPE 
+// GLOBAL SCOPE , FUNCTİON SCOPE , BLOCK SCOPE 
 
 
 // Evet, "kapsam" veya İngilizce terimiyle "scope", bir programın içinde belirli bir değişkenin erişilebilir olduğu alanı ifade eder. JavaScript gibi dillerde, değişkenlerin erişilebilir olduğu alan belirlidir ve bu kapsamın dışında erişilemezler.
