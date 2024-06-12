@@ -11,6 +11,7 @@ let veri;
 
 // veri[0].style.fontSize = "30px";
 // veri[0].style.color = "red";
+
 // veri[2].textContent = "new item";
 
 // hepsine tek tek yazmak yerine döngüyle hepsini yaza biliriz
@@ -30,7 +31,7 @@ veri = document.querySelectorAll("li");
 
 veri.forEach(function(item, index){
     // console.log(item)
-    item.textContent=`${index} - item `; // çıktısı => 0 - item 1 - item 2 - item  3 - item
+    item.textContent=`${index} - item `; // ekrana yazılan => 0 - item 1 - item 2 - item  3 - item
 });
 
 // çıktısı 
