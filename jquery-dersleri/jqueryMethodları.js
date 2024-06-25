@@ -14,6 +14,25 @@ function kayıtOl(){
      
 
     // class ekleyebiliriz
+
     $("#ad").addClass("highlight")
     $("#soyad").addClass("orange")
-}
+
+    // toggleClass eğer class yoksa ekliyor varsa değiştiriyor
+
+    $("#ad").toggleClass("highlight")
+    $("#soyad").addClass("orange")
+
+    // remove class 
+
+    /*
+
+    $("#ad").removeClass("highlight")
+    $("#soyad").addClass("orange")
+
+    */
+
+    // attribute methodu ile görselin boyutlarını gösteriyoruz 
+   
+} 
+$("img").attr("width","100")
