@@ -5,16 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      .highlight {
-        background-color: gray;
-      }
-      .orange {
-        background-color: orange;
+      /* #box {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        width: 200px;
+        height: 200px;
+        background-color: brown;
+      } */
+
+      body{
+        padding: 0;
+        margin: 0;
       }
 
-      .renklendir {
-        color: purple;
-        font-size: 20px;
+      #messageBox{
+        background-color: darkcyan;
+        text-align: center;
+        color: white;
+      }
+
+      #header{
+       cursor: pointer;
+       height: 20px;
+       padding: 10px;
+       border-bottom: 1px solid white;
+      }
+
+      #content{
+        height: 200px;
+        padding: 10px;
+        display: none;
+      }
+
+      #close{
+        float: right;
+      }
+
+      #close:hover{
+        color: gray;
       }
     </style>
   </head>
@@ -54,7 +83,7 @@
       </p>
     </form>  -->
 
-    <div>
+    <!-- <div>
       <p>Lorem ipsum dolor sit amet.</p>
       <img src="/res-site/img/indir (1).jpeg" alt="" />
     </div>
@@ -68,10 +97,18 @@
 
     <button id="fadeup">fade up</button>
     <button id="fadeout">fade down</button>
-    <button id="fadeto">fade to</button>
+    <button id="fadeto">fade to</button> -->
+
+    <!-- <button id="animate">Animasyon</button>
+    <div id="box"></div> -->
+
+    <div id="messageBox">
+      <div id="header"><span id="close"> X </span> Mesajınız var</div>
+      <div id="content"></div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <script src="slideFade.js"></script>
+    <script src="animeteJquery.js"></script>
   </body>
 </html>
